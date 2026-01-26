@@ -27,3 +27,5 @@ To pull and run the latest version of this API, use:
 ```bash
 docker pull ghcr.io/ofekh12/fastapi-app:latest
 docker run -d -p 8001:80 ghcr.io/ofekh12/fastapi-app:latest
+
+Developed by Ofek Harari as part of a DevOps Hands-on Lab.
