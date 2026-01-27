@@ -19,7 +19,7 @@ This project demonstrates a full modern DevOps lifecycle for a FastAPI applicati
 * **Documentation:** Jekyll & GitHub Pages
 
 ## 🚀 Pipeline Workflow
-The CI/CD pipeline (`deploy.yml`) is triggered on every push to the `main` branch:
+The CI/CD pipeline (`ci-cd.yml`) is triggered on every push to the `main` branch:
 1. **Lint & Test:** Runs `pytest` inside a dedicated Docker tester stage.
 2. **Build:** Creates a slim production-ready Docker image.
 3. **Push:** Authenticates and pushes the image to GitHub Container Registry.
@@ -37,5 +37,6 @@ Clone the repo: git clone https://github.com/ofekh12/fastapi-ghcr-deploy.git
 Install dependencies: pip install -r requirements.txt
 
 Run the app: uvicorn app.main:app --reload
+
 
 Created by Ofek Harari- DevOps Student Project
