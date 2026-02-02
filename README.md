@@ -1,6 +1,6 @@
 # FastAPI Containerized CI/CD Pipeline 🚀
 
-![Build Status](https://github.com/ofekh12/fastapi-ghcr-deploy/actions/workflows/deploy.yml/badge.svg)
+![Build Status](https://github.com/ofekh12/fastapi-ghcr-deploy/actions/workflows/ci-cd.yml/badge.svg)
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://ofekh12.github.io/fastapi-ghcr-deploy/)
 
 ## Overview
